@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
     <!--Link google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
@@ -14,55 +15,29 @@
 
     <title>KUK-Home</title>
 
-    <style>
-        .image-size{
-            height:auto;
-            width: 150px;
-        }
-
-        .body-header{
-            font-size: 36px;
-            font-style: bold;
-        }
-        .sans-pro{
-            font-family: 'Source Sans Pro', sans-serif;
-        }
-
-        .ranchers-font{
-            font-family: 'Ranchers', cursive;
-        }
-    </style>
   </head>
   <body>
-    <header>
-            <div class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="col-md-3">
-                    <p></p>
-                </div>
-                <div class="col-md-1">
-                    <a class="navbar-brand" href="#">Kerem Karaman</a>
-                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button> -->
-                </div>
-                <div class="col-md-3">
-                    <p></p>
-                </div>
-                <div class="collapse navbar-collapse col-md-7" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- establish container to use media properties of bootstrap -->
+    <div class="white-background container">
+        <!-- start navigation toolbar at the top of each page -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!-- clicking the name will take you to index.html home page -->
+            <a class="navbar-brand" href="index.html">Kerem Karaman</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact Me<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+              </ul>
             </div>
-    </header>
+        </nav> <!--end navigation-->
+    </div><!--end container--> 
     <section>
         <br>
         <div class="container">
@@ -79,13 +54,10 @@
                     <p></p>
                 </div>
                 <div class="col-md-3">
-                    <img class="image-size" src="./images/Kerem with dogs.jpg" alt="Owner Picture">
+                    <img class="img-fluid img-thumbnail" src="./images/boatPortrait.JPEG" alt="Owner Picture">
                 </div class="col-md-3"> 
                 <div class="col-md-6 sans-pro">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum modi ab aliquid. Harum, ducimus ab tempora magnam deleniti possimus 
-                        aut obcaecati quos ut, sint adipisci itaque omnis debitis! Rerum, eos.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Earum sunt deserunt rem vero? Tempore tenetur deserunt atque harum vero! Itaque, molestiae! Suscipit consequatur neque modi facilis 
-                        eius deleniti officiis minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <p>My name is Kerem and thank you for visiting my page.</p>
                 </div class="col-md-6">                          
             </div><!--end of row 2-->
             <br>
